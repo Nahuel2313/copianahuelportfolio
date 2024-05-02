@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Poppins', sans-serif;
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	font-family:'Poppins', sans-serif;
+	
+}
+
+/*INICIO*/
+header{
+	background: #D8BF25;
+}
+.inicio {
+	padding: 12vh 0;
+	text-align: center;
+    font-size: 20px;
+}
+
+
+/*SOBRE MI*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about {
+    padding: 100px 0;
+    background: #0e0c0f;
+}
+
+.about-content {
+    display: flex;
+}
+
+.about-1 {
+    width: 70%;
+    padding-left: 150px;
+}
+.about-2{
+    width: 30%;
+}
+
+.about-img{
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.about-img img {
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+p, h1 {
+	color: #838288;
+}
+h1{
+font-size: 25px;
+    padding-left: 60px;
+}
+p{
+	text-align: left;
+	margin: 10vh;
+}
+
+.cv{
+    color: white;
+}
+.redes{
+    text-align: center;
+}
+
+.redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    transition: .3s;
+    text-align: center;
+}
+
+.redes a:hover{
+    background-color: #D8BF25;
+}
+button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+/* SECCION S K I L L S */
+/*fondo*/
+.skills{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+}
+/*separacion de los bordes*/
+.skills .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+/*titulo de Skills*/
+.skills h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+/*para que esten las skills al lado de las otras*/
+.skills .fila{
+    display: flex;
+}
+/*tamaño a ocupar*/
+.skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+/*separacion del titulo con el primer porsentaje*/
+.skills .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+/*nombres*/
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/*barra del fondo*/
+.skills .skill .barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+}
+/*color de barra de carga*/
+.skills .skill .progreso{
+    background-color: #D8BF25;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+/*circulo de la barra*/
+.skills .skill .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #D8BF25;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+/* Estas clases se agregaran dinamicamente mediante javascript */
+.skills .skill .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 10%;}
+}
+
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .MySql{
+    width: 0%;
+    animation: 2s MySql forwards;
+}
+@keyframes MySql {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+
+
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .trabajo{
+    width: 0%;
+    animation: 2s trabajo forwards;
+}
+@keyframes trabajo {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+/*Contactos*/
+.color{
+    background: #0e0c0f;
+}
+#map{
+    outline: 2px solid #0e0c0f;
+    margin-bottom: 25px;
+    width: 500px;
+    height: 350px;
+}
+#map iframe{
+    width: 100%;
+    height: 100%;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+
+
+.col input,.col textarea{
+    display: block;
+    width: 500px;
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #252A2E;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #D8BF25;
+    z-index: -1;
+    transition: 1s;
+}
+button:hover .overlay{
+    width: 100%;
+}
+.about1 {
+    width: 50%;
+    padding-left: 400px;
+    margin-bottom: 20px;
+}
+.about2{
+    padding-left: 60px;
+    width: 30%;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.about3{
+    padding-right: 50px;
+    width: 30%;
+    font-size: 25px;
+    margin-top: 25px;
+}
+h6{
+    color: white;
+    font-size: 15px;
+}
+
+#cara img{
+width: 120px;
+height: 120px;
+border-radius: 100%;
+margin-bottom: 10px;
+display: flex;
+}
+h4{
+    color: white;
+}
+
+
+
+/*Footer*/
+.aboutt {
+    padding: 5px 0;
+    background: #111111;
+}
+.h5{
+    font-size: 20px;
+    color: white;
+    margin: 5px 2px;
+}
+.rede{
+    text-align: right;
+}
+
+.rede a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 5px 2px;
+    font-size: 20px;
+    margin-bottom: 2px;
+    transition: .3s;
+    text-align: center;
+}
+
+.rede a:hover{
+    background-color: #D8BF25;
+}
+
+
+
+
+
+
+
+
+/*Responsive*/
+
+@media(max-width:991px){
+/*Sobre Mi*/
+    .about-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+.h1{
+    padding-left: 5px;
+}
+
+    .about-img img {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+    .about-1{
+        width: 100%;
+        margin-bottom: 20px;
+    padding-left: 0px;
+    }
+
+    .about-2{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .about-img{
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    h1{
+
+    text-align: left;
+}
+
+/*Contactos*/
+.campo{
+        margin: 0 0 15px 0;
+        width: 100%;
+      }
+#map{
+    width: 300px;
+    height: 300px;
+    }
+    .col input,.col textarea{
+    display: block;
+    width: 250px;
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #252A2E;
+    color: #fff;
+    font-size: 15px;
+}
+.about1 {
+    width: 50%;
+    padding-left: 135px;
+}
+.about2{
+    width: 85%;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.about3{
+    width: 100%;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#cara img{
+width: 120px;
+height: 120px;
+border-radius: 100%;
+margin-bottom: 25px;
+}
+
+/*Skills*/
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.skills .fila .col h3{
+    font-size: 26px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.skills .skill .barra-skill span{
+    position: absolute;
+    height: 25px ;
+    width: 25px;
+    background-color: #D8BF25;
+    border-radius: 50px;
+    line-height: 26px;
+    text-align: center;
+    top: -10px;
+    right: -15px;
+    font-size: 10px;
+}
+
+/*Footer*/
+.rede{
+    text-align: center;
+}
+}
