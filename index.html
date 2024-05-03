@@ -5,16 +5,57 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Porfolio</title>
+	<title>Portfolio</title>
 </head>
 <body>
-<header>
-	<div class="inicio">
-		<h2>nahuel copia</h2>
-	</div>
-</header>
 
-<section class="about">
+<div class="contenedor-header">
+    <header> 
+            <div class="logo">
+                <a>Portfolio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#sobremi">SOBRE MI</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#proyectos">PROYECTOS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+    </header>
+</div>
+<section class="inicio" id="inicio">
+<div class="header">
+    <br>
+    <div class="tarjeta">
+      <div id="caja">
+        <center>
+            <img src="imagen/p.webp">
+        </center>
+      </div>
+            <p class="info">Copia Nahuel</p>
+            <p class="carrera">Tec.Programacion</p>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+    </div>  
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+</section>
+
+
+
+
+<section class="about" id="sobremi">
         <div class="about-content container">
                     <div class="about-2">
             <div class="about-img">
@@ -29,12 +70,6 @@
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
             <button>
                 <a class="cv" download="CV(Copia Nahuel)" href="CV/CvCopiaNahuel.pdf">Descargar CV</a> <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
@@ -46,6 +81,7 @@
 
     <!-- SECCION SKILLS -->
     <section class="skills" id="skills">
+        <br>
         <div class="contenido-seccion">
             <h2>Skills</h2>
             <div class="fila">
@@ -60,6 +96,7 @@
                             </div>
                         </div>
                     </div>
+                    <br>
                     <div class="skill">
                         <span>HTML & CSS</span>
                         <div class="barra-skill">
@@ -68,6 +105,7 @@
                             </div>
                         </div>
                     </div>
+                    <br>
                     <div class="skill">
                         <span>MySql</span>
                         <div class="barra-skill">
@@ -77,6 +115,7 @@
                         </div>
                     </div>
                 </div>
+                <br>
                 <!-- Professional Skills -->
                 <div class="col">
                     <h3>Professional Skills</h3>
@@ -88,6 +127,7 @@
                             </div>
                         </div>
                     </div>
+                    <br>
                     <div class="skill">
                         <span>Trabajo en Equipo</span>
                         <div class="barra-skill">
@@ -96,6 +136,7 @@
                             </div>
                         </div>
                     </div>
+                    <br>
                     <div class="skill">
                         <span>Dedicación</span>
                         <div class="barra-skill">
@@ -109,7 +150,7 @@
         </div>
     </section>
 
-<section class="color">
+<section class="color" id="contacto">
     <div class="about">
         <h2 class="titulo">Contact Me</h2>
         <br>
@@ -151,10 +192,10 @@
                             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <textarea name="" id="" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                    <input type="text" name="name" placeholder="Nombre" required>
+                    <input type="text" name="phone" placeholder="telefónico" required>
+                    <input type="E-Mail" name="mail" placeholder="Dirección de correo" required>
+                    <textarea name="message" id="" cols="30" rows="5" placeholder="Mensaje" required></textarea>
                     <button>
                         Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>

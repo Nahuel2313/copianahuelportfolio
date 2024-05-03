@@ -13,18 +13,104 @@ font-family: 'Poppins', sans-serif;
 }
 body{
 	font-family:'Poppins', sans-serif;
-	
+}
+html{
+    /* me permite deslizar cuando hago clic en los links del menu */
+    scroll-behavior: smooth;
 }
 
+/*MENU*/
+
+.contenedor-header{
+    background: #D8BF25;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+.contenedor-header header .logo a{
+    font-size: 36px;
+    color: #111111;
+    text-decoration: none;
+}
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.contenedor-header header nav ul li a:hover{
+    color: #111111;
+}
 /*INICIO*/
-header{
-	background: #D8BF25;
+.header{
+    background: linear-gradient(
+        180deg,
+        rgba(43, 42, 48, 0.5) 0%,
+        rgba(37, 42, 46, 1.5) 100%),
+        url(imagen/header.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        min-height: 70vh;
 }
-.inicio {
-	padding: 12vh 0;
-	text-align: center;
+.info{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+    
+}
+#caja img{
+width: 200px;
+height: 200px;
+border-radius: 100%;
+margin-right: 5px;
+margin-top: 50px;
+display: flex;
+outline: 10px solid #D8BF25;
+}
+.inicio{
+    text-align: center;
+}
+.carrera{
     font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 10px;
 }
+.tarjeta{
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: 0.4s;
+    width: 400px;
+    height: 450px;
+    background-color: #111111;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+
 
 
 /*SOBRE MI*/
@@ -91,6 +177,7 @@ p{
     margin: 40px 5px;
     font-size: 20px;
     margin-bottom: 20px;
+    margin-top: 15px;
     transition: .3s;
     text-align: center;
 }
@@ -144,7 +231,6 @@ button{
 /*separacion del titulo con el primer porsentaje*/
 .skills .fila .col h3{
     font-size: 28px;
-    font-family: 'Righteous';
     margin-bottom: 25px;
 }
 /*nombres*/
@@ -356,14 +442,176 @@ h4{
 
 
 
+/*Responsive Tablet*/
+@media(max-width:1000px){
+/*Inicio*/
+.info{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    
+}
+#caja img{
+width: 200px;
+height: 200px;
+border-radius: 100%;
+margin-right: 5px;
+margin-top: 50px;
+display: flex;
+outline: 10px solid #D8BF25;
+}
+.inicio{
+    text-align: center;
+}
+.carrera{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.tarjeta{
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: 0.4s;
+    width: 400px;
+    height: 550px;
+    background-color: #111111;
+    border-radius: 30px;
+    display: inline-block;
+}
+/*Sobre Mi*/
+    .about-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+.h1{
+    padding-left: 5px;
+}
+
+    .about-img img {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+    .about-1{
+        width: 100%;
+        margin-bottom: 20px;
+    padding-left: 0px;
+    }
+
+    .about-2{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .about-img{
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    h1{
+
+    text-align: left;
+}
+/*Contactos*/
+.campo{
+        margin: 0 0 15px 0;
+        width: 100%;
+      }
+#map{
+    width: 300px;
+    height: 300px;
+    }
+    .col input,.col textarea{
+    display: block;
+    width: 250px;
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #252A2E;
+    color: #fff;
+    font-size: 15px;
+}
+.about1 {
+    width: 50%;
+    padding-left: 265px;
+}
+.about2{
+    width: 85%;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.about3{
+    width: 100%;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#cara img{
+width: 220px;
+height: 220px;
+border-radius: 100%;
+margin-bottom: 25px;
+}
+/*Footer*/
+.rede{
+    text-align: center;
+}
+}
 
 
 
+/*Responsive Celular*/
+
+@media(max-width:700px){
+/*Inicio*/
+.info{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    
+}
+#caja img{
+width: 200px;
+height: 200px;
+border-radius: 100%;
+margin-right: 5px;
+margin-top: 50px;
+display: flex;
+outline: 10px solid #D8BF25;
+}
+.inicio{
+    text-align: center;
+}
+.carrera{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.tarjeta{
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: 0.4s;
+    width: 300px;
+    height: 520px;
+    background-color: #111111;
+    border-radius: 30px;
+    display: inline-block;
+}
 
 
-/*Responsive*/
-
-@media(max-width:991px){
 /*Sobre Mi*/
     .about-content{
         flex-direction: column;
