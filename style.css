@@ -20,6 +20,10 @@ html{
 }
 
 /*MENU*/
+.abrir-menu, .cerrar-menu{
+    display: none;
+}
+
 
 .contenedor-header{
     background: #D8BF25;
@@ -185,7 +189,7 @@ p{
 .redes a:hover{
     background-color: #D8BF25;
 }
-button{
+.button{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -358,7 +362,7 @@ button{
 }
 
 
-button .overlay{
+.button .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -368,7 +372,7 @@ button .overlay{
     z-index: -1;
     transition: 1s;
 }
-button:hover .overlay{
+.button:hover .overlay{
     width: 100%;
 }
 .about1 {
@@ -570,6 +574,49 @@ margin-bottom: 25px;
 /*Responsive Celular*/
 
 @media(max-width:700px){
+/*Menu*/
+.abrir-menu, .cerrar-menu{
+    display: block;
+    border:0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.abrir-menu img{
+width: 35px;
+height: 40px;
+}
+.cerrar-menu img{
+width: 20px;
+height: 20px;
+}
+
+.nav{
+    opacity: 0;
+    visibility: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #D8BF25;
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(37, 42, 46, 0.8);
+}
+.nav.visible{
+    opacity: 1;
+    visibility: visible;
+}
+.nav-list{
+    flex-direction: column;
+    align-items: end;
+}
+.nav-list li a{
+    color: black;
+}
+
 /*Inicio*/
 .info{
     font-size: 40px;
