@@ -1371,6 +1371,12 @@ outline: 10px solid #D8BF25;
         margin: 0 0 15px 0;
         width: 100%;
       }
+.comuni-espacio1{
+margin-bottom: 15px;
+}
+.comuni-espacio2{
+margin-top: 20px;
+}
 .about1 {
     width: 50%;
     padding-left: 135px;
