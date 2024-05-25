@@ -422,7 +422,9 @@ p{
 .color{
     background: #0e0c0f;
 }
-
+.comuni-espacio{
+    margin-bottom: 14px;
+}
 .info{
     font-size: 35px;
     text-align: center;
