@@ -1239,7 +1239,7 @@ margin-bottom: 25px;
 @media(max-width:700px){
 
 .contenedor{
-    height: 50vh;
+    height: 42vh;
 }
 
 /*Menu*/
@@ -1317,6 +1317,7 @@ outline: 10px solid #D8BF25;
     margin-top: 10px;
 }
 .tarjeta{
+    margin-bottom: 30px;
     margin-top: 20px;
     margin-left: 20px;
     transition: 0.4s;
