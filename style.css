@@ -66,7 +66,7 @@ html{
         180deg,
         rgba(43, 42, 48, 0.5) 0%,
         rgba(37, 42, 46, 1.5) 100%),
-        url(imagen/header.jpg);
+        url(img/header.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
