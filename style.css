@@ -61,7 +61,7 @@ html{
     color: #111111;
 }
 /*INICIO*/
-#header{
+#inicio{
     background: linear-gradient(
         180deg,
         rgba(43, 42, 48, 0.5) 0%,
@@ -608,18 +608,6 @@ h4{
     color: #111111;
 }
 /*INICIO*/
-#header{
-    background: linear-gradient(
-        180deg,
-        rgba(43, 42, 48, 0.5) 0%,
-        rgba(37, 42, 46, 1.5) 100%),
-        url(imagen/header.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        align-items: center;
-        min-height: 70vh;
-}
 
     .about4{
         width: 100%;
