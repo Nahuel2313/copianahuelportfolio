@@ -435,11 +435,11 @@ p{
     
 }
 #caja img{
-width: 200px;
-height: 200px;
+width: 230px;
+height: 230px;
 border-radius: 100%;
 margin-right: 5px;
-margin-top: 50px;
+margin-top: 30px;
 display: flex;
 outline: 10px solid #D8BF25;
 }
@@ -975,11 +975,11 @@ p{
     
 }
 #caja img{
-width: 200px;
-height: 200px;
+width: 230px;
+height: 230px;
 border-radius: 100%;
 margin-right: 5px;
-margin-top: 50px;
+margin-top: 30px;
 display: flex;
 outline: 10px solid #D8BF25;
 }
@@ -1126,11 +1126,11 @@ h4{
     
 }
 #caja img{
-width: 200px;
-height: 200px;
+    width: 230px;
+height: 230px;
 border-radius: 100%;
 margin-right: 5px;
-margin-top: 50px;
+margin-top: 30px;
 display: flex;
 outline: 10px solid #D8BF25;
 }
@@ -1298,11 +1298,11 @@ height: 20px;
     
 }
 #caja img{
-width: 200px;
-height: 200px;
+width: 230px;
+height: 230px;
 border-radius: 100%;
 margin-right: 5px;
-margin-top: 50px;
+margin-top: 30px;
 display: flex;
 outline: 10px solid #D8BF25;
 }
