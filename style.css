@@ -11,6 +11,7 @@ font-family: 'Poppins', sans-serif;
 	text-decoration: none;
 	list-style: none;
 }
+
 body{
 	font-family:'Poppins', sans-serif;
 }
@@ -1228,6 +1229,12 @@ margin-bottom: 25px;
 
 @media(max-width:700px){
 
+hr{
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    width: 100%;
+}
+
 .contenedor{
     height: 34vh;
 }
@@ -1270,6 +1277,7 @@ height: 20px;
 .nav-list{
     flex-direction: column;
     align-items: end;
+    font-size: 20px;
 }
 .nav-list li a{
     color: black;
