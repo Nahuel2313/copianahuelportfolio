@@ -573,41 +573,7 @@ h4{
     display: none;
 }
 
-.contenedor-header{
-    background: #D8BF25;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-.contenedor-header header{
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 20px;
-}
-.contenedor-header header .logo a{
-    font-size: 36px;
-    color: #111111;
-    text-decoration: none;
-}
-.contenedor-header header ul{
-    display: flex;
-    list-style: none;
-}
-.contenedor-header header nav ul li a{
-    text-align: none;
-    color: #fff;
-    margin: 0 15px;
-    padding: 3px;
-    transition: .5s;
-    text-decoration: none;
-}
-.contenedor-header header nav ul li a:hover{
-    color: #111111;
-}
+
 /*INICIO*/
 
     .about4{

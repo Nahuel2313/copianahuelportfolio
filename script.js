@@ -14,12 +14,6 @@ function efectoHabilidades(){
 }
 
 
-//detecto el scrolling para aplicar la animacion de la barra de habilidades
-window.onscroll = function(){
-    efectoHabilidades();
-} 
-
-
 //menu hamburguesa
 
 const nav = document.querySelector("#nav");
