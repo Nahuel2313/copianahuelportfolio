@@ -3,7 +3,7 @@
 font-family: 'Bebas Neue', cursive;
 font-family: 'Poppins', sans-serif;
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&family=Sevillana&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -15,6 +15,11 @@ font-family: 'Poppins', sans-serif;
 body{
 	font-family:'Poppins', sans-serif;
 }
+.cursiva{
+    font-family: 'Sevillana', cursive;
+    font-size: 30px;
+}
+
 html{
     /* me permite deslizar cuando hago clic en los links del menu */
     scroll-behavior: smooth;
@@ -24,8 +29,9 @@ html{
 .abrir-menu, .cerrar-menu{
     display: none;
 }
-
-
+.cl{
+    color: #D8BF25;
+}
 .contenedor-header{
     background: #D8BF25;
     position: fixed;
@@ -372,7 +378,7 @@ p{
     }
     .contenedor figure .capa p{
       color: black;
-      font-size: 15px;
+      font-size: 18px;
       line-height: 1.5;
       width: 100%;
       max-width: 220px;
@@ -1241,7 +1247,7 @@ outline: 10px solid #D8BF25;
 }
 
     .about-img img {
-    width: 300px;
+    width: 225px;
     margin-bottom: 10px;
 }
 
@@ -1291,7 +1297,9 @@ margin-top: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+.about4{
+    margin-bottom: 0;
+}
 #cara img{
 width: 120px;
 height: 120px;
@@ -1327,5 +1335,18 @@ margin-bottom: 25px;
 /*Footer*/
 .rede{
     text-align: center;
+}
+
+
+
+.about{
+    padding: 0 0;
+}
+video{
+    padding: 90px 0;
+}
+.redes a{
+    margin-bottom: 0;
+    margin-top: 0;
 }
 }
