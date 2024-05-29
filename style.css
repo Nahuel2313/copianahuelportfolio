@@ -1352,12 +1352,10 @@ video{
 .espacio{
     margin: 5vh;
 }
-.fondo{
-    padding: 100px 0;
-    padding: 90px 0;
-}
+
 .cell{
-    padding: 100px 0;
     padding: 90px 0;
+    margin-bottom: 30px;
 }
+
 }
