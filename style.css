@@ -1002,7 +1002,6 @@ h4{
 }
 }
 
-
 /*Responsive Tablet*/
 @media(max-width:1000px){
 /*Inicio*/
@@ -1130,10 +1129,7 @@ margin-bottom: 25px;
 }
 }
 
-
-
 /*Responsive Celular*/
-
 @media(max-width:700px){
 
 hr{
