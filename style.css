@@ -16,8 +16,8 @@ body{
 	font-family:'Poppins', sans-serif;
 }
 .cursiva{
-    font-family: 'Sevillana', cursive;
-    font-size: 30px;
+    font-family:'Poppins', sans-serif;
+    font-size: 25px;
 }
 
 html{
@@ -200,6 +200,10 @@ p{
 }
 
 /* SECCION S K I L L S */
+
+#skills{
+background-color: #252A2E;
+}
 /*fondo*/
 .skills{
     background-color: #252A2E;
@@ -351,16 +355,16 @@ p{
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 103, 123, 0.7);
+    background: rgba(0, 103, 123, 0.7);/*sacar class con js para cell*/
     
     transition: all 500ms ease-out;
-    opacity: 0;
-    visibility: hidden;
+    opacity: 0;/*sacar class con js para cell*/
+    visibility: hidden;/*sacar class con js para cell*/
     text-align: center;
    }
-   .contenedor figure:hover > .capa{
-    opacity: 1;
-    visibility: visible;
+   .contenedor figure:hover > .capa{/*sacar class con js para cell*/
+    opacity: 1;/*sacar class con js para cell*/
+    visibility: visible;/*sacar class con js para cell*/
    }
    .contenedor figure:hover > img{
     transform: scale(1.3);
@@ -372,7 +376,7 @@ p{
     .contenedor figure .capa H3{
       color: black;
       font-weight: 800;
-      margin-bottom: 120px;
+      margin-bottom: 120px;/*sacar class con js para cell*/
       transition: all 500ms ease-out;
       margin-top: 30px;
     }
@@ -391,10 +395,10 @@ p{
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(216, 191, 37, 0.7);
+    background: rgba(216, 191, 37, 0.7);/*sacar class con js para cell*/
     transition: all 500ms ease-out;
-    opacity: 0;
-    visibility: hidden;
+    opacity: 0;/*sacar class con js para cell*/
+    visibility: hidden; /*sacar class con js para cell*/
     text-align: center;
    }
    .a{
@@ -574,6 +578,7 @@ h4{
 
 /*netbock*/
 @media(max-width:1366px){
+
     /*MENU*/
 .abrir-menu, .cerrar-menu{
     display: none;
